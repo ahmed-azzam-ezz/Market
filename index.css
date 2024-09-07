@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h3{
+font-family: 'Cairo', sans-serif;
+font-weight: bold;
+}
+
+/* تصميم الـ card */
+.card {
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(68, 1, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* تصميم صورة المنتج */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* نص عنوان المنتج */
+.card-title {
+    font-weight: 700;
+    color: #007bff;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+/* نص السعر */
+.card-text {
+    font-weight: 500;
+    color: #28a745;
+    font-size: 1.15rem;
+}
+
+/* أزرار التحكم */
+.btn {
+    margin: 10px 5px;
+}
+
+/* تصميم النص العلوي */
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 20px;
+}
+#aa{
+    color: white;
+    margin-left: 70px;
+    text-decoration: none;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center; /* محاذاة النص أفقيًا في المنتصف */
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    vertical-align: middle; /* محاذاة النص عموديًا في المنتصف */
+  }
+  
+  /* تنسيق إضافي */
+  th {
+    background-color: rgba(68, 1, 255, 0.1);;
+    color: #333;
+      
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  /* تصميم الصفوف الفردية والزوجية */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  /* تأثير عند مرور الماوس على الصف */
+  tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+  }
+  
+  /* إضافة ظل خفيف للجدول */
+  table {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* جعل النص غامق في رأس الجدول */
+  th {
+    font-weight: bold;
+  }
+  .btn-danger {
+    background-color: #ff4d4d; /* يمكنك تعديل اللون */
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* تأثير عند مرور الماوس */
+  .btn-danger:hover {
+    background-color: #e60000;
+  }
